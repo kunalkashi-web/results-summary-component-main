@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <div class="content">
+      <section class="head">
+        <p class="yourresult">
+          Your Result
+        </p>
+        
+        <div class="circle">
+          <div class="circle-content">
+            <div class="result">
+              76
+            </div>
+            <div class="outof">
+              of 100
+            </div>
+          </div>
+        </div>
+        <p class="compliment">
+          Great
+        </p>
+        <div class="paragraph">
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+      <section class="foot">
+        <div class="summary-container">
+          <h2>
+            Summary
+          </h2>
+          <div class="summary-box summary-box1">
+            <div class="summary-content">
+              <div><img src="icon-reaction.svg" alt="error"></div>
+              <p class="summary-reaction">
+                Reaction
+              </p>
+            </div>
+            <div class="summary-content">
+              <p class="score reaction-score">80<span class="outof-100">/100</span></p>
+            </div>
+          </div>
+          <div class="summary-box summary-box2">
+            <div class="summary-content">
+              <div><img src="icon-memory.svg" alt="error"></div>
+              <p class="summary-memory">
+                Memory
+              </p>
+            </div>
+            <div class="summary-content">
+              <p class="score memory-score">92<span class="outof-100">/100</span></p>
+            </div>
+          </div>
+          <div class="summary-box summary-box3">
+            <div class="summary-content">
+              <div><img src="icon-verbal.svg" alt="error"></div>
+              <p class="summary-verbal">
+                Verbal
+              </p>
+            </div>
+            <div class="summary-content">
+              <p class="score verbal-score">61<span class="outof-100">/100</span></p>
+            </div>
+          </div>
+          <div class="summary-box summary-box4">
+            <div class="summary-content">
+              <div><img src="icon-visual.svg" alt="error"></div>
+              <p class="summary-visual">
+                Visual
+              </p>
+            </div>
+            <div class="class">
+              <p class="score visual-score">72<span class="outof-100">/100</span></p>
+            </div>
+          </div>
+            <button class="continue-button" id="continue">
+              Continue
+            </button>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
